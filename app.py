@@ -23,7 +23,7 @@ def home():
 
 
 @app.route('/', methods=['GET'])
-def home():
+def base():
     return "hello world"
 
 
