@@ -24,6 +24,7 @@ def home():
 
 @app.route('/', methods=['GET'])
 def base():
+    print("HELLO WORLD!")
     return "hello world"
 
 
