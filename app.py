@@ -22,6 +22,11 @@ def home():
     return jsonify(lorem_ipsum)
 
 
+@app.route('/', methods=['GET'])
+def home():
+    return "hello world"
+
+
 @app.route('/list_collection', methods=['GET'])
 def list_collection():
     db_name = request.args.get("db_name")
